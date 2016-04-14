@@ -1,0 +1,12 @@
+{application, memcached,
+ [
+  {description, "Simple Memcached compatible Server"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { memcached_app, []}},
+  {env, []}
+ ]}.

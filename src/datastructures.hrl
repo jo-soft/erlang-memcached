@@ -1,0 +1,1 @@
+-record(data_item, {key, flags, expTime, bytes, cas, value}). 
